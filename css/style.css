@@ -158,15 +158,10 @@ section a:hover {
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
-    nav {
-      background-color: lightgray;
-    padding: 5px;    
-    border-bottom: 2px solid black;
-    display: flex;
+    nav {     
     flex-direction: column;
     justify-content: flex-start;
-    gap: 5px; 
-    margin: 0;
+    align-items: center;
     }
 
     .three-col {
