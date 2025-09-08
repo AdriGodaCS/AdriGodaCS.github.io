@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  }
+
+/****************   Nav Section **********************/
+nav {
+	background-color: lightgray;
+    padding: 5px;    
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+body {
+  background-color: #c9cee5;
+  
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	 background-color: lightgray;
+    padding: 10px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/*********** Splash Page ************************/
+header {  
+  background-image: linear-gradient(to bottom right,#c9cee5, white);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid black;  
+  padding: 20px;
+}
+
+header h1 {
+      font-family: "Rubik", sans-serif;
+    color: #324b4a;
+    margin: 10px;
+}
+
+header img {
+   border: 5px solid black;    
+    border-radius: 200px;    
+    margin: 10px;
+}
+
+.address {
+   border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;    
+    margin: 0;    
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+.tagline {
+   padding: 10px;    
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #c9cee5;
+}
+
+/************* Sections ********************/
+hr {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  background-color: whitesmoke;
+}
+
+section h3 {
+  font-family: "Rubik", sans-serif;
+  color: #324b4a;
+  margin: 10px;
+}
+
+h3 {
+  font-family: "Rubik", sans-serif;
+  color: #324b4a;
+  margin: 10px;
+}
+
+.bullet {
+  font-family: "Roboto", sans-serif;
+}
+
+section dl {
+  display: grid;
+  margin: 10px;
+}
+
+section ul {
+  list-style: square;
+  margin: 10px;
+}
+
+section a {
+  color: darkslateblue;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: darkslateblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 25px;
+  margin: 10px;
+  justify-self: center;
+  width: 90%;
+}
+
+.card img {
+  border-radius: 30px;
+  width: 20rem;
+  height: 20rem;  
+  align-self: center;  
+}
+
+.card {  
+  box-shadow: 10px 8px 8px 0 #324b4a;
+  display: flex;
+  flex-direction: column;
+  background-color: #9398ad;
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 10px 8px 8px 0 gray;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      background-color: lightgray;
+    padding: 5px;    
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px; 
+    margin: 0;
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+      margin: 10px;
+      justify-self: center;
+      width: 90%;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: grid;  
+  grid-template-columns: 1fr;
+}
+
+form label {
+  margin: 5px;
+}
+
+form button {
+  width: 40%;
+  margin: 10px;
+}
+
+input {
+  width: 60%;
+  height: 20px;
+  margin: 5px;
+}
+
+textarea {
+   width: 80%;
+   height: 50px;
+   margin: 0 5px;
+}
+
